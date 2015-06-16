@@ -27,7 +27,7 @@ namespace Alchemy.RnR.Revisor.Config
 
             //AddSeperator("cm_sep");
 
-            AddItem("cm_revisor", "Get Last Revisor", "Revisor");
+            AddItem("cm_revisor", "Get Last Revisor", "ShowRevisorPage");
 
             // We need to addd our resource group as a dependency to this extension
             Dependencies.Add<RevisorResourceGroup>();

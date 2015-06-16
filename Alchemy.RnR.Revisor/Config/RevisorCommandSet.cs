@@ -19,6 +19,8 @@ namespace Alchemy.RnR.Revisor.Config
         public RevisorCommandSet()
         {
             AddCommand("Revisor");
+            
+            AddCommand("ShowRevisorPage", "Alchemy.Revisor.Commands.ShowRevisorPage");
         }
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.alchemywebstore.com/">
-  <buildTime>2015-06-16T11:09:34.0012886+00:00</buildTime>
+  <buildTime>2015-06-16T14:46:06.4714751+00:00</buildTime>
   <id>557fec89e4de02112cba01b3</id>
   <description><![CDATA[Adds a context menu item to retrieve the last person to edit an item.]]></description>
   <name>Revisor</name>

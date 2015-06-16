@@ -79,20 +79,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="a4t.xml" />
+    <Content Include="a4t.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Static\Controls\HelloGroup.ascx" />
     <Content Include="Static\Images\sample-small-icon.png" />
     <Content Include="Static\Scripts\ErrorTestCommand.js" />
     <Content Include="Static\Scripts\GetApiVersionCommand.js" />
     <Content Include="Static\Scripts\HelloWorldCommand.js" />
     <Content Include="Static\Scripts\RevisorCommand.js" />
+    <Content Include="Static\Scripts\ShowRevisorPageCommand.js" />
     <Content Include="Static\Styles\Hello.css" />
+    <Content Include="Static\Views\RevisorPage.aspx" />
+    <Content Include="Static\Views\RevisorPage.js" />
+    <Content Include="Static\Views\RevisorPage.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlchemyPlugin.cs" />
     <Compile Include="Config\RevisorCommandSet.cs" />
     <Compile Include="Config\RevisorContextMenu.cs" />
+    <Compile Include="Config\RevisorPageViewGroup.cs" />
     <Compile Include="Config\RevisorResourceGroup.cs" />
     <Compile Include="Controllers\ErrorTestBindingModel.cs" />
     <Compile Include="Controllers\ServiceController.cs" />

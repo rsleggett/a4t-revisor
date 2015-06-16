@@ -14,11 +14,13 @@ namespace Alchemy.RnR.Revisor.Config
         /// </summary>
         public RevisorResourceGroup()
         {
+            
             // When adding files you only need to specify the filename and not full path
             //AddFile("ErrorTestCommand.js");
             //AddFile("GetApiVersionCommand.js");
             //AddFile("HelloWorldCommand.js");
             AddFile("RevisorCommand.js");
+            AddFile("ShowRevisorPageCommand.js");
 
             //AddFile("Hello.css");
 
